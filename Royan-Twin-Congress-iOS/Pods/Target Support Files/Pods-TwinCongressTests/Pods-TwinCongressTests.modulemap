@@ -1,0 +1,6 @@
+framework module Pods_TwinCongressTests {
+  umbrella header "Pods-TwinCongressTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
