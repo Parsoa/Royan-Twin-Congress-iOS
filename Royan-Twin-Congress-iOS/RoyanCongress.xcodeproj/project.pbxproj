@@ -1,0 +1,1016 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		644CFAE43654664539030AB3 /* Pods_TwinCongressTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDCAF15688FF3FEDB34FDF3 /* Pods_TwinCongressTests.framework */; };
+		D0522EEB5000CDCD1AA3D73E /* Pods_TwinCongress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60D1B22AF28A94F506634CE /* Pods_TwinCongress.framework */; };
+		D817BA3B1F4EA01100FCB2E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D817BA3A1F4EA01100FCB2E8 /* AppDelegate.swift */; };
+		D817BA431F4EA01100FCB2E8 /* TwinCongress.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D817BA411F4EA01100FCB2E8 /* TwinCongress.xcdatamodeld */; };
+		D817BA451F4EA01100FCB2E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D817BA441F4EA01100FCB2E8 /* Assets.xcassets */; };
+		D817BA481F4EA01100FCB2E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D817BA461F4EA01100FCB2E8 /* LaunchScreen.storyboard */; };
+		D817BA531F4EA01100FCB2E8 /* TwinCongressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D817BA521F4EA01100FCB2E8 /* TwinCongressTests.swift */; };
+		D817BA5E1F4EA01100FCB2E8 /* TwinCongressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D817BA5D1F4EA01100FCB2E8 /* TwinCongressUITests.swift */; };
+		D81AA5061F51B5A300747EEC /* AgendaItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81AA5021F51B5A300747EEC /* AgendaItemsViewController.swift */; };
+		D81AA5071F51B5A300747EEC /* AgendaItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D81AA5031F51B5A300747EEC /* AgendaItemTableViewCell.xib */; };
+		D81AA5081F51B5A300747EEC /* AgendaItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81AA5041F51B5A300747EEC /* AgendaItemTableViewCell.swift */; };
+		D81AA5091F51B5A300747EEC /* AgendaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81AA5051F51B5A300747EEC /* AgendaItem.swift */; };
+		D81AA50B1F51B5C300747EEC /* SpeakerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81AA50A1F51B5C300747EEC /* SpeakerType.swift */; };
+		D81C33251F4EAC15000229B1 /* ActivationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D81C33231F4EAC15000229B1 /* ActivationViewController.xib */; };
+		D81C33261F4EAC15000229B1 /* ActivationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81C33241F4EAC15000229B1 /* ActivationViewController.swift */; };
+		D81C33281F4EAC22000229B1 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81C33271F4EAC22000229B1 /* TableViewController.swift */; };
+		D81C332A1F4EAD1B000229B1 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81C33291F4EAD1B000229B1 /* Configurable.swift */; };
+		D81C33301F4EB049000229B1 /* CompaniesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81C332F1F4EB049000229B1 /* CompaniesViewController.swift */; };
+		D81C33361F4EB462000229B1 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81C33351F4EB462000229B1 /* Company.swift */; };
+		D81C33391F4EB60F000229B1 /* CompanyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81C33371F4EB60F000229B1 /* CompanyTableViewCell.swift */; };
+		D81C333A1F4EB60F000229B1 /* CompanyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D81C33381F4EB60F000229B1 /* CompanyTableViewCell.xib */; };
+		D81C333C1F4EBD8C000229B1 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81C333B1F4EBD8C000229B1 /* ImageStore.swift */; };
+		D81C333E1F4EC24B000229B1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81C333D1F4EC24B000229B1 /* HomeViewController.swift */; };
+		D81C33401F4EC253000229B1 /* Congress.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81C333F1F4EC253000229B1 /* Congress.swift */; };
+		D81C334A1F4EC7D3000229B1 /* SpeakerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81C33481F4EC7D3000229B1 /* SpeakerTableViewCell.swift */; };
+		D81C334B1F4EC7D3000229B1 /* SpeakerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D81C33491F4EC7D3000229B1 /* SpeakerTableViewCell.xib */; };
+		D81C33511F4EDA95000229B1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81C33501F4EDA95000229B1 /* Constants.swift */; };
+		D81C61D41F534B4100B95292 /* TitleImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D81C61D21F534B4100B95292 /* TitleImageTableViewCell.xib */; };
+		D81C61D51F534B4100B95292 /* TitleImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81C61D31F534B4100B95292 /* TitleImageTableViewCell.swift */; };
+		D81C61D71F534C3200B95292 /* AgendaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81C61D61F534C3200B95292 /* AgendaViewController.swift */; };
+		D81C61D91F534CFE00B95292 /* Hall.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81C61D81F534CFE00B95292 /* Hall.swift */; };
+		D81C61DC1F53526700B95292 /* ImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81C61DA1F53526700B95292 /* ImagesViewController.swift */; };
+		D81C61DD1F53526700B95292 /* ImagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D81C61DB1F53526700B95292 /* ImagesViewController.xib */; };
+		D81C61E01F53533F00B95292 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81C61DF1F53533F00B95292 /* MapViewController.swift */; };
+		D81C61E21F53551D00B95292 /* AgendaPictuesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81C61E11F53551D00B95292 /* AgendaPictuesViewController.swift */; };
+		D837D21F1F4EDFCF00CA98F1 /* Abstract.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837D21E1F4EDFCF00CA98F1 /* Abstract.swift */; };
+		D837D2211F4EE03000CA98F1 /* AbstractData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837D2201F4EE03000CA98F1 /* AbstractData.swift */; };
+		D837D2231F4EE0A100CA98F1 /* AbstractViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837D2221F4EE0A100CA98F1 /* AbstractViewController.swift */; };
+		D837D2281F4EE1C000CA98F1 /* AbstractDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837D2261F4EE1C000CA98F1 /* AbstractDataTableViewCell.swift */; };
+		D837D2291F4EE1C000CA98F1 /* AbstractDataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D837D2271F4EE1C000CA98F1 /* AbstractDataTableViewCell.xib */; };
+		D837D22B1F4EE75500CA98F1 /* SpeakersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837D22A1F4EE75500CA98F1 /* SpeakersViewController.swift */; };
+		D8C5BC721F50A4970057C218 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C5BC701F50A4970057C218 /* ImageViewController.swift */; };
+		D8E710731F51FD1400BDF866 /* BookmarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E710721F51FD1400BDF866 /* BookmarksViewController.swift */; };
+		D8FD364F1F5044EC0069C30B /* AwardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FD364E1F5044EC0069C30B /* AwardsViewController.swift */; };
+		D8FD36531F5044F10069C30B /* CongressSpeakersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FD36511F5044F10069C30B /* CongressSpeakersViewController.swift */; };
+		D8FD36571F5045130069C30B /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FD36561F5045130069C30B /* Speaker.swift */; };
+		D8FD36661F5079620069C30B /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FD36641F5079620069C30B /* IntroViewController.swift */; };
+		D8FD36671F5079620069C30B /* IntroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8FD36651F5079620069C30B /* IntroViewController.xib */; };
+		D8FD36691F507C570069C30B /* Activation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FD36681F507C570069C30B /* Activation.swift */; };
+		FA990943A1A49AA2A62D8367 /* Pods_TwinCongressUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E40196A021B84F94FD1788 /* Pods_TwinCongressUITests.framework */; };
+		FD898C011F4EEFC900970241 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD898C001F4EEFC900970241 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D817BA4F1F4EA01100FCB2E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D817BA2F1F4EA01100FCB2E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D817BA361F4EA01100FCB2E8;
+			remoteInfo = TwinCongress;
+		};
+		D817BA5A1F4EA01100FCB2E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D817BA2F1F4EA01100FCB2E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D817BA361F4EA01100FCB2E8;
+			remoteInfo = TwinCongress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0186EFA8FE515CF4C0633A75 /* Pods-TwinCongressUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwinCongressUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwinCongressUITests/Pods-TwinCongressUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2663A60E47B15E66E6087C41 /* Pods-TwinCongressTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwinCongressTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwinCongressTests/Pods-TwinCongressTests.debug.xcconfig"; sourceTree = "<group>"; };
+		282F999F0E2D71CA75B86260 /* Pods-TwinCongressTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwinCongressTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwinCongressTests/Pods-TwinCongressTests.release.xcconfig"; sourceTree = "<group>"; };
+		2F2D78B94C6AFFE91E1323B8 /* Pods-TwinCongress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwinCongress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwinCongress/Pods-TwinCongress.debug.xcconfig"; sourceTree = "<group>"; };
+		AEC92924E14CF5A918D679BE /* Pods-TwinCongress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwinCongress.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwinCongress/Pods-TwinCongress.release.xcconfig"; sourceTree = "<group>"; };
+		B60D1B22AF28A94F506634CE /* Pods_TwinCongress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwinCongress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E40196A021B84F94FD1788 /* Pods_TwinCongressUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwinCongressUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D817BA371F4EA01100FCB2E8 /* RoyanCongress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoyanCongress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D817BA3A1F4EA01100FCB2E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D817BA421F4EA01100FCB2E8 /* TwinCongress.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TwinCongress.xcdatamodel; sourceTree = "<group>"; };
+		D817BA441F4EA01100FCB2E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D817BA471F4EA01100FCB2E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D817BA491F4EA01100FCB2E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D817BA4E1F4EA01100FCB2E8 /* RoyanCongressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoyanCongressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D817BA521F4EA01100FCB2E8 /* TwinCongressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwinCongressTests.swift; sourceTree = "<group>"; };
+		D817BA541F4EA01100FCB2E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D817BA591F4EA01100FCB2E8 /* RoyanCongressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoyanCongressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D817BA5D1F4EA01100FCB2E8 /* TwinCongressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwinCongressUITests.swift; sourceTree = "<group>"; };
+		D817BA5F1F4EA01100FCB2E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D81AA5021F51B5A300747EEC /* AgendaItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgendaItemsViewController.swift; sourceTree = "<group>"; };
+		D81AA5031F51B5A300747EEC /* AgendaItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AgendaItemTableViewCell.xib; sourceTree = "<group>"; };
+		D81AA5041F51B5A300747EEC /* AgendaItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgendaItemTableViewCell.swift; sourceTree = "<group>"; };
+		D81AA5051F51B5A300747EEC /* AgendaItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgendaItem.swift; sourceTree = "<group>"; };
+		D81AA50A1F51B5C300747EEC /* SpeakerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakerType.swift; sourceTree = "<group>"; };
+		D81C33231F4EAC15000229B1 /* ActivationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivationViewController.xib; sourceTree = "<group>"; };
+		D81C33241F4EAC15000229B1 /* ActivationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivationViewController.swift; sourceTree = "<group>"; };
+		D81C33271F4EAC22000229B1 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D81C33291F4EAD1B000229B1 /* Configurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
+		D81C332F1F4EB049000229B1 /* CompaniesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompaniesViewController.swift; sourceTree = "<group>"; };
+		D81C33351F4EB462000229B1 /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		D81C33371F4EB60F000229B1 /* CompanyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyTableViewCell.swift; sourceTree = "<group>"; };
+		D81C33381F4EB60F000229B1 /* CompanyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompanyTableViewCell.xib; sourceTree = "<group>"; };
+		D81C333B1F4EBD8C000229B1 /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		D81C333D1F4EC24B000229B1 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D81C333F1F4EC253000229B1 /* Congress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Congress.swift; sourceTree = "<group>"; };
+		D81C33481F4EC7D3000229B1 /* SpeakerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakerTableViewCell.swift; sourceTree = "<group>"; };
+		D81C33491F4EC7D3000229B1 /* SpeakerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpeakerTableViewCell.xib; sourceTree = "<group>"; };
+		D81C33501F4EDA95000229B1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D81C61D21F534B4100B95292 /* TitleImageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitleImageTableViewCell.xib; sourceTree = "<group>"; };
+		D81C61D31F534B4100B95292 /* TitleImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleImageTableViewCell.swift; sourceTree = "<group>"; };
+		D81C61D61F534C3200B95292 /* AgendaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgendaViewController.swift; sourceTree = "<group>"; };
+		D81C61D81F534CFE00B95292 /* Hall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hall.swift; sourceTree = "<group>"; };
+		D81C61DA1F53526700B95292 /* ImagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesViewController.swift; sourceTree = "<group>"; };
+		D81C61DB1F53526700B95292 /* ImagesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImagesViewController.xib; sourceTree = "<group>"; };
+		D81C61DF1F53533F00B95292 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D81C61E11F53551D00B95292 /* AgendaPictuesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgendaPictuesViewController.swift; sourceTree = "<group>"; };
+		D837D21E1F4EDFCF00CA98F1 /* Abstract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Abstract.swift; sourceTree = "<group>"; };
+		D837D2201F4EE03000CA98F1 /* AbstractData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractData.swift; sourceTree = "<group>"; };
+		D837D2221F4EE0A100CA98F1 /* AbstractViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractViewController.swift; sourceTree = "<group>"; };
+		D837D2261F4EE1C000CA98F1 /* AbstractDataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractDataTableViewCell.swift; sourceTree = "<group>"; };
+		D837D2271F4EE1C000CA98F1 /* AbstractDataTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AbstractDataTableViewCell.xib; sourceTree = "<group>"; };
+		D837D22A1F4EE75500CA98F1 /* SpeakersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakersViewController.swift; sourceTree = "<group>"; };
+		D8C5BC701F50A4970057C218 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		D8E710721F51FD1400BDF866 /* BookmarksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarksViewController.swift; sourceTree = "<group>"; };
+		D8FD364E1F5044EC0069C30B /* AwardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwardsViewController.swift; sourceTree = "<group>"; };
+		D8FD36511F5044F10069C30B /* CongressSpeakersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CongressSpeakersViewController.swift; sourceTree = "<group>"; };
+		D8FD36561F5045130069C30B /* Speaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
+		D8FD36641F5079620069C30B /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		D8FD36651F5079620069C30B /* IntroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntroViewController.xib; sourceTree = "<group>"; };
+		D8FD36681F507C570069C30B /* Activation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activation.swift; sourceTree = "<group>"; };
+		FCBD6DF123C16C1902CBF7EE /* Pods-TwinCongressUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwinCongressUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwinCongressUITests/Pods-TwinCongressUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD898C001F4EEFC900970241 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FDDCAF15688FF3FEDB34FDF3 /* Pods_TwinCongressTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwinCongressTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D817BA341F4EA01100FCB2E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0522EEB5000CDCD1AA3D73E /* Pods_TwinCongress.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D817BA4B1F4EA01100FCB2E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644CFAE43654664539030AB3 /* Pods_TwinCongressTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D817BA561F4EA01100FCB2E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA990943A1A49AA2A62D8367 /* Pods_TwinCongressUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A6734397F0DD091F30B294C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F2D78B94C6AFFE91E1323B8 /* Pods-TwinCongress.debug.xcconfig */,
+				AEC92924E14CF5A918D679BE /* Pods-TwinCongress.release.xcconfig */,
+				2663A60E47B15E66E6087C41 /* Pods-TwinCongressTests.debug.xcconfig */,
+				282F999F0E2D71CA75B86260 /* Pods-TwinCongressTests.release.xcconfig */,
+				FCBD6DF123C16C1902CBF7EE /* Pods-TwinCongressUITests.debug.xcconfig */,
+				0186EFA8FE515CF4C0633A75 /* Pods-TwinCongressUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		50666A75FB5C62D12745A010 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B60D1B22AF28A94F506634CE /* Pods_TwinCongress.framework */,
+				FDDCAF15688FF3FEDB34FDF3 /* Pods_TwinCongressTests.framework */,
+				C4E40196A021B84F94FD1788 /* Pods_TwinCongressUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D817BA2E1F4EA01100FCB2E8 = {
+			isa = PBXGroup;
+			children = (
+				D817BA391F4EA01100FCB2E8 /* TwinCongress */,
+				D817BA511F4EA01100FCB2E8 /* TwinCongressTests */,
+				D817BA5C1F4EA01100FCB2E8 /* TwinCongressUITests */,
+				D817BA381F4EA01100FCB2E8 /* Products */,
+				3A6734397F0DD091F30B294C /* Pods */,
+				50666A75FB5C62D12745A010 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D817BA381F4EA01100FCB2E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D817BA371F4EA01100FCB2E8 /* RoyanCongress.app */,
+				D817BA4E1F4EA01100FCB2E8 /* RoyanCongressTests.xctest */,
+				D817BA591F4EA01100FCB2E8 /* RoyanCongressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D817BA391F4EA01100FCB2E8 /* TwinCongress */ = {
+			isa = PBXGroup;
+			children = (
+				D81C33211F4EABEC000229B1 /* Pages */,
+				D81C33201F4EABE6000229B1 /* Helpers */,
+				D817BA3A1F4EA01100FCB2E8 /* AppDelegate.swift */,
+				D817BA441F4EA01100FCB2E8 /* Assets.xcassets */,
+				D817BA461F4EA01100FCB2E8 /* LaunchScreen.storyboard */,
+				D817BA491F4EA01100FCB2E8 /* Info.plist */,
+				D817BA411F4EA01100FCB2E8 /* TwinCongress.xcdatamodeld */,
+			);
+			path = TwinCongress;
+			sourceTree = "<group>";
+		};
+		D817BA511F4EA01100FCB2E8 /* TwinCongressTests */ = {
+			isa = PBXGroup;
+			children = (
+				D817BA521F4EA01100FCB2E8 /* TwinCongressTests.swift */,
+				D817BA541F4EA01100FCB2E8 /* Info.plist */,
+			);
+			path = TwinCongressTests;
+			sourceTree = "<group>";
+		};
+		D817BA5C1F4EA01100FCB2E8 /* TwinCongressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D817BA5D1F4EA01100FCB2E8 /* TwinCongressUITests.swift */,
+				D817BA5F1F4EA01100FCB2E8 /* Info.plist */,
+			);
+			path = TwinCongressUITests;
+			sourceTree = "<group>";
+		};
+		D81C33201F4EABE6000229B1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D81C61DA1F53526700B95292 /* ImagesViewController.swift */,
+				D81C61DB1F53526700B95292 /* ImagesViewController.xib */,
+				D81C61D21F534B4100B95292 /* TitleImageTableViewCell.xib */,
+				D81C61D31F534B4100B95292 /* TitleImageTableViewCell.swift */,
+				D81C33271F4EAC22000229B1 /* TableViewController.swift */,
+				D81C33291F4EAD1B000229B1 /* Configurable.swift */,
+				D81C333B1F4EBD8C000229B1 /* ImageStore.swift */,
+				D81C33501F4EDA95000229B1 /* Constants.swift */,
+				FD898C001F4EEFC900970241 /* Extensions.swift */,
+				D8FD36681F507C570069C30B /* Activation.swift */,
+				D8C5BC701F50A4970057C218 /* ImageViewController.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D81C33211F4EABEC000229B1 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				D81C61DE1F53532600B95292 /* Map */,
+				D8FD36631F50793F0069C30B /* Intro */,
+				D8FD365A1F50583E0069C30B /* Agenda */,
+				D837D21B1F4EDDB800CA98F1 /* Abstract */,
+				D8E710711F51FBEB00BDF866 /* Bookmarks */,
+				D81C33471F4EC7B8000229B1 /* Speakers */,
+				D81C332D1F4EAFDA000229B1 /* Home */,
+				D81C332B1F4EAFCE000229B1 /* Companies */,
+				D81C33221F4EAC05000229B1 /* Activation */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		D81C33221F4EAC05000229B1 /* Activation */ = {
+			isa = PBXGroup;
+			children = (
+				D81C33231F4EAC15000229B1 /* ActivationViewController.xib */,
+				D81C33241F4EAC15000229B1 /* ActivationViewController.swift */,
+			);
+			path = Activation;
+			sourceTree = "<group>";
+		};
+		D81C332B1F4EAFCE000229B1 /* Companies */ = {
+			isa = PBXGroup;
+			children = (
+				D81C332F1F4EB049000229B1 /* CompaniesViewController.swift */,
+				D81C33351F4EB462000229B1 /* Company.swift */,
+				D81C33371F4EB60F000229B1 /* CompanyTableViewCell.swift */,
+				D81C33381F4EB60F000229B1 /* CompanyTableViewCell.xib */,
+			);
+			path = Companies;
+			sourceTree = "<group>";
+		};
+		D81C332D1F4EAFDA000229B1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D81C333D1F4EC24B000229B1 /* HomeViewController.swift */,
+				D81C333F1F4EC253000229B1 /* Congress.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D81C33471F4EC7B8000229B1 /* Speakers */ = {
+			isa = PBXGroup;
+			children = (
+				D81AA50A1F51B5C300747EEC /* SpeakerType.swift */,
+				D8FD364D1F50448C0069C30B /* Awards */,
+				D8FD364C1F5044820069C30B /* CongressSpeakers */,
+				D81C33481F4EC7D3000229B1 /* SpeakerTableViewCell.swift */,
+				D81C33491F4EC7D3000229B1 /* SpeakerTableViewCell.xib */,
+				D8FD36561F5045130069C30B /* Speaker.swift */,
+				D837D21E1F4EDFCF00CA98F1 /* Abstract.swift */,
+				D837D22A1F4EE75500CA98F1 /* SpeakersViewController.swift */,
+			);
+			path = Speakers;
+			sourceTree = "<group>";
+		};
+		D81C61DE1F53532600B95292 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				D81C61DF1F53533F00B95292 /* MapViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		D837D21B1F4EDDB800CA98F1 /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				D837D2201F4EE03000CA98F1 /* AbstractData.swift */,
+				D837D2221F4EE0A100CA98F1 /* AbstractViewController.swift */,
+				D837D2261F4EE1C000CA98F1 /* AbstractDataTableViewCell.swift */,
+				D837D2271F4EE1C000CA98F1 /* AbstractDataTableViewCell.xib */,
+			);
+			path = Abstract;
+			sourceTree = "<group>";
+		};
+		D8E710711F51FBEB00BDF866 /* Bookmarks */ = {
+			isa = PBXGroup;
+			children = (
+				D8E710721F51FD1400BDF866 /* BookmarksViewController.swift */,
+			);
+			path = Bookmarks;
+			sourceTree = "<group>";
+		};
+		D8FD364C1F5044820069C30B /* CongressSpeakers */ = {
+			isa = PBXGroup;
+			children = (
+				D8FD36511F5044F10069C30B /* CongressSpeakersViewController.swift */,
+			);
+			path = CongressSpeakers;
+			sourceTree = "<group>";
+		};
+		D8FD364D1F50448C0069C30B /* Awards */ = {
+			isa = PBXGroup;
+			children = (
+				D8FD364E1F5044EC0069C30B /* AwardsViewController.swift */,
+			);
+			path = Awards;
+			sourceTree = "<group>";
+		};
+		D8FD365A1F50583E0069C30B /* Agenda */ = {
+			isa = PBXGroup;
+			children = (
+				D81AA5021F51B5A300747EEC /* AgendaItemsViewController.swift */,
+				D81AA5031F51B5A300747EEC /* AgendaItemTableViewCell.xib */,
+				D81AA5041F51B5A300747EEC /* AgendaItemTableViewCell.swift */,
+				D81AA5051F51B5A300747EEC /* AgendaItem.swift */,
+				D81C61D61F534C3200B95292 /* AgendaViewController.swift */,
+				D81C61D81F534CFE00B95292 /* Hall.swift */,
+				D81C61E11F53551D00B95292 /* AgendaPictuesViewController.swift */,
+			);
+			path = Agenda;
+			sourceTree = "<group>";
+		};
+		D8FD36631F50793F0069C30B /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				D8FD36641F5079620069C30B /* IntroViewController.swift */,
+				D8FD36651F5079620069C30B /* IntroViewController.xib */,
+			);
+			path = Intro;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D817BA361F4EA01100FCB2E8 /* RoyanCongress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D817BA621F4EA01100FCB2E8 /* Build configuration list for PBXNativeTarget "RoyanCongress" */;
+			buildPhases = (
+				EF5A818CA2D3DC74677C5568 /* [CP] Check Pods Manifest.lock */,
+				D817BA331F4EA01100FCB2E8 /* Sources */,
+				D817BA341F4EA01100FCB2E8 /* Frameworks */,
+				D817BA351F4EA01100FCB2E8 /* Resources */,
+				1CC0691D363F8AD32BA4E72F /* [CP] Embed Pods Frameworks */,
+				3F25752BA45DAE46B4BB0322 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoyanCongress;
+			productName = TwinCongress;
+			productReference = D817BA371F4EA01100FCB2E8 /* RoyanCongress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D817BA4D1F4EA01100FCB2E8 /* RoyanCongressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D817BA651F4EA01100FCB2E8 /* Build configuration list for PBXNativeTarget "RoyanCongressTests" */;
+			buildPhases = (
+				D1A65E5A03F341DE93E46ACC /* [CP] Check Pods Manifest.lock */,
+				D817BA4A1F4EA01100FCB2E8 /* Sources */,
+				D817BA4B1F4EA01100FCB2E8 /* Frameworks */,
+				D817BA4C1F4EA01100FCB2E8 /* Resources */,
+				4AAC6A6EBB6E25A9967BF929 /* [CP] Embed Pods Frameworks */,
+				FCA1178BF6752ADA09AE53CC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D817BA501F4EA01100FCB2E8 /* PBXTargetDependency */,
+			);
+			name = RoyanCongressTests;
+			productName = TwinCongressTests;
+			productReference = D817BA4E1F4EA01100FCB2E8 /* RoyanCongressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D817BA581F4EA01100FCB2E8 /* RoyanCongressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D817BA681F4EA01100FCB2E8 /* Build configuration list for PBXNativeTarget "RoyanCongressUITests" */;
+			buildPhases = (
+				0AD3904B4432D3B2059E0490 /* [CP] Check Pods Manifest.lock */,
+				D817BA551F4EA01100FCB2E8 /* Sources */,
+				D817BA561F4EA01100FCB2E8 /* Frameworks */,
+				D817BA571F4EA01100FCB2E8 /* Resources */,
+				477AE57E0EBCE18898E7D6BC /* [CP] Embed Pods Frameworks */,
+				346885DA3CE6F7D35A5002DE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D817BA5B1F4EA01100FCB2E8 /* PBXTargetDependency */,
+			);
+			name = RoyanCongressUITests;
+			productName = TwinCongressUITests;
+			productReference = D817BA591F4EA01100FCB2E8 /* RoyanCongressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D817BA2F1F4EA01100FCB2E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Royan;
+				TargetAttributes = {
+					D817BA361F4EA01100FCB2E8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5SCH7KMX3E;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					D817BA4D1F4EA01100FCB2E8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 93J76CY6FY;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D817BA361F4EA01100FCB2E8;
+					};
+					D817BA581F4EA01100FCB2E8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 93J76CY6FY;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D817BA361F4EA01100FCB2E8;
+					};
+				};
+			};
+			buildConfigurationList = D817BA321F4EA01100FCB2E8 /* Build configuration list for PBXProject "RoyanCongress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D817BA2E1F4EA01100FCB2E8;
+			productRefGroup = D817BA381F4EA01100FCB2E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D817BA361F4EA01100FCB2E8 /* RoyanCongress */,
+				D817BA4D1F4EA01100FCB2E8 /* RoyanCongressTests */,
+				D817BA581F4EA01100FCB2E8 /* RoyanCongressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D817BA351F4EA01100FCB2E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8FD36671F5079620069C30B /* IntroViewController.xib in Resources */,
+				D81AA5071F51B5A300747EEC /* AgendaItemTableViewCell.xib in Resources */,
+				D817BA481F4EA01100FCB2E8 /* LaunchScreen.storyboard in Resources */,
+				D81C61DD1F53526700B95292 /* ImagesViewController.xib in Resources */,
+				D817BA451F4EA01100FCB2E8 /* Assets.xcassets in Resources */,
+				D81C61D41F534B4100B95292 /* TitleImageTableViewCell.xib in Resources */,
+				D81C33251F4EAC15000229B1 /* ActivationViewController.xib in Resources */,
+				D81C334B1F4EC7D3000229B1 /* SpeakerTableViewCell.xib in Resources */,
+				D81C333A1F4EB60F000229B1 /* CompanyTableViewCell.xib in Resources */,
+				D837D2291F4EE1C000CA98F1 /* AbstractDataTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D817BA4C1F4EA01100FCB2E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D817BA571F4EA01100FCB2E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AD3904B4432D3B2059E0490 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1CC0691D363F8AD32BA4E72F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwinCongress/Pods-TwinCongress-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		346885DA3CE6F7D35A5002DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwinCongressUITests/Pods-TwinCongressUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F25752BA45DAE46B4BB0322 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwinCongress/Pods-TwinCongress-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		477AE57E0EBCE18898E7D6BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwinCongressUITests/Pods-TwinCongressUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AAC6A6EBB6E25A9967BF929 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwinCongressTests/Pods-TwinCongressTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1A65E5A03F341DE93E46ACC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF5A818CA2D3DC74677C5568 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FCA1178BF6752ADA09AE53CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwinCongressTests/Pods-TwinCongressTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D817BA331F4EA01100FCB2E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81C61E21F53551D00B95292 /* AgendaPictuesViewController.swift in Sources */,
+				D8E710731F51FD1400BDF866 /* BookmarksViewController.swift in Sources */,
+				FD898C011F4EEFC900970241 /* Extensions.swift in Sources */,
+				D81C61D51F534B4100B95292 /* TitleImageTableViewCell.swift in Sources */,
+				D81C333E1F4EC24B000229B1 /* HomeViewController.swift in Sources */,
+				D81AA50B1F51B5C300747EEC /* SpeakerType.swift in Sources */,
+				D81AA5061F51B5A300747EEC /* AgendaItemsViewController.swift in Sources */,
+				D81C33511F4EDA95000229B1 /* Constants.swift in Sources */,
+				D8FD364F1F5044EC0069C30B /* AwardsViewController.swift in Sources */,
+				D8FD36661F5079620069C30B /* IntroViewController.swift in Sources */,
+				D81AA5091F51B5A300747EEC /* AgendaItem.swift in Sources */,
+				D837D22B1F4EE75500CA98F1 /* SpeakersViewController.swift in Sources */,
+				D8FD36531F5044F10069C30B /* CongressSpeakersViewController.swift in Sources */,
+				D81C332A1F4EAD1B000229B1 /* Configurable.swift in Sources */,
+				D81C61E01F53533F00B95292 /* MapViewController.swift in Sources */,
+				D8FD36571F5045130069C30B /* Speaker.swift in Sources */,
+				D81C61D91F534CFE00B95292 /* Hall.swift in Sources */,
+				D837D21F1F4EDFCF00CA98F1 /* Abstract.swift in Sources */,
+				D837D2231F4EE0A100CA98F1 /* AbstractViewController.swift in Sources */,
+				D81C33401F4EC253000229B1 /* Congress.swift in Sources */,
+				D81C33301F4EB049000229B1 /* CompaniesViewController.swift in Sources */,
+				D81C333C1F4EBD8C000229B1 /* ImageStore.swift in Sources */,
+				D81C33361F4EB462000229B1 /* Company.swift in Sources */,
+				D81C334A1F4EC7D3000229B1 /* SpeakerTableViewCell.swift in Sources */,
+				D817BA3B1F4EA01100FCB2E8 /* AppDelegate.swift in Sources */,
+				D8FD36691F507C570069C30B /* Activation.swift in Sources */,
+				D8C5BC721F50A4970057C218 /* ImageViewController.swift in Sources */,
+				D817BA431F4EA01100FCB2E8 /* TwinCongress.xcdatamodeld in Sources */,
+				D81C61D71F534C3200B95292 /* AgendaViewController.swift in Sources */,
+				D81C33261F4EAC15000229B1 /* ActivationViewController.swift in Sources */,
+				D81AA5081F51B5A300747EEC /* AgendaItemTableViewCell.swift in Sources */,
+				D837D2281F4EE1C000CA98F1 /* AbstractDataTableViewCell.swift in Sources */,
+				D81C33391F4EB60F000229B1 /* CompanyTableViewCell.swift in Sources */,
+				D837D2211F4EE03000CA98F1 /* AbstractData.swift in Sources */,
+				D81C33281F4EAC22000229B1 /* TableViewController.swift in Sources */,
+				D81C61DC1F53526700B95292 /* ImagesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D817BA4A1F4EA01100FCB2E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D817BA531F4EA01100FCB2E8 /* TwinCongressTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D817BA551F4EA01100FCB2E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D817BA5E1F4EA01100FCB2E8 /* TwinCongressUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D817BA501F4EA01100FCB2E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D817BA361F4EA01100FCB2E8 /* RoyanCongress */;
+			targetProxy = D817BA4F1F4EA01100FCB2E8 /* PBXContainerItemProxy */;
+		};
+		D817BA5B1F4EA01100FCB2E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D817BA361F4EA01100FCB2E8 /* RoyanCongress */;
+			targetProxy = D817BA5A1F4EA01100FCB2E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D817BA461F4EA01100FCB2E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D817BA471F4EA01100FCB2E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D817BA601F4EA01100FCB2E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D817BA611F4EA01100FCB2E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D817BA631F4EA01100FCB2E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F2D78B94C6AFFE91E1323B8 /* Pods-TwinCongress.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: borghei.mohammadamin@gmail.com (W4H9Y6VHXE)";
+				DEVELOPMENT_TEAM = 5SCH7KMX3E;
+				INFOPLIST_FILE = TwinCongress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.borghei.RoyanCongress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D817BA641F4EA01100FCB2E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEC92924E14CF5A918D679BE /* Pods-TwinCongress.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: borghei.mohammadamin@gmail.com (W4H9Y6VHXE)";
+				DEVELOPMENT_TEAM = 5SCH7KMX3E;
+				INFOPLIST_FILE = TwinCongress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.borghei.RoyanCongress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D817BA661F4EA01100FCB2E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2663A60E47B15E66E6087C41 /* Pods-TwinCongressTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 93J76CY6FY;
+				INFOPLIST_FILE = TwinCongressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.royan.TwinCongressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoyanCongress.app/RoyanCongress";
+			};
+			name = Debug;
+		};
+		D817BA671F4EA01100FCB2E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 282F999F0E2D71CA75B86260 /* Pods-TwinCongressTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 93J76CY6FY;
+				INFOPLIST_FILE = TwinCongressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.royan.TwinCongressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoyanCongress.app/RoyanCongress";
+			};
+			name = Release;
+		};
+		D817BA691F4EA01100FCB2E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCBD6DF123C16C1902CBF7EE /* Pods-TwinCongressUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 93J76CY6FY;
+				INFOPLIST_FILE = TwinCongressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.royan.TwinCongressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TwinCongress;
+			};
+			name = Debug;
+		};
+		D817BA6A1F4EA01100FCB2E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0186EFA8FE515CF4C0633A75 /* Pods-TwinCongressUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 93J76CY6FY;
+				INFOPLIST_FILE = TwinCongressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.royan.TwinCongressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TwinCongress;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D817BA321F4EA01100FCB2E8 /* Build configuration list for PBXProject "RoyanCongress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D817BA601F4EA01100FCB2E8 /* Debug */,
+				D817BA611F4EA01100FCB2E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D817BA621F4EA01100FCB2E8 /* Build configuration list for PBXNativeTarget "RoyanCongress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D817BA631F4EA01100FCB2E8 /* Debug */,
+				D817BA641F4EA01100FCB2E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D817BA651F4EA01100FCB2E8 /* Build configuration list for PBXNativeTarget "RoyanCongressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D817BA661F4EA01100FCB2E8 /* Debug */,
+				D817BA671F4EA01100FCB2E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D817BA681F4EA01100FCB2E8 /* Build configuration list for PBXNativeTarget "RoyanCongressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D817BA691F4EA01100FCB2E8 /* Debug */,
+				D817BA6A1F4EA01100FCB2E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D817BA411F4EA01100FCB2E8 /* TwinCongress.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D817BA421F4EA01100FCB2E8 /* TwinCongress.xcdatamodel */,
+			);
+			currentVersion = D817BA421F4EA01100FCB2E8 /* TwinCongress.xcdatamodel */;
+			path = TwinCongress.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D817BA2F1F4EA01100FCB2E8 /* Project object */;
+}
