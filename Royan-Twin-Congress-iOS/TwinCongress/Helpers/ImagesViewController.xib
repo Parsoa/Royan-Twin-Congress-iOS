@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ImagesViewController" customModule="TwinCongress" customModuleProvider="target">
+            <connections>
+                <outlet property="pageControl" destination="bcn-8f-0ph" id="Tsk-QJ-giT"/>
+                <outlet property="swipeView" destination="wp6-Qb-b0H" id="Jxt-8e-EGf"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wp6-Qb-b0H" customClass="SwipeView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="bcn-8f-0ph">
+                    <rect key="frame" x="168" y="622" width="39" height="37"/>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="bcn-8f-0ph" secondAttribute="bottom" constant="8" id="02Q-qx-CM1"/>
+                <constraint firstItem="wp6-Qb-b0H" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="2vC-oI-Qg4"/>
+                <constraint firstItem="bcn-8f-0ph" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="3I4-Zo-Pcf"/>
+                <constraint firstItem="wp6-Qb-b0H" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="eWq-Xo-AP3"/>
+                <constraint firstAttribute="trailing" secondItem="wp6-Qb-b0H" secondAttribute="trailing" id="iDA-5m-Dc2"/>
+                <constraint firstAttribute="bottom" secondItem="wp6-Qb-b0H" secondAttribute="bottom" id="v1I-qs-gnG"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

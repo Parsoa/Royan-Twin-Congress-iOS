@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ActivationViewController" customModule="TwinCongress" customModuleProvider="target">
+            <connections>
+                <outlet property="activationTextField" destination="idm-Et-9DF" id="WyC-Yr-tWX"/>
+                <outlet property="checkButton" destination="EXA-W5-hqI" id="TgZ-Uq-Y77"/>
+                <outlet property="errorLabel" destination="zBZ-P1-bpK" id="L8m-a2-SKM"/>
+                <outlet property="titleLabel" destination="oXe-Zq-g8a" id="vCo-5V-VTJ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="idm-Et-9DF">
+                    <rect key="frame" x="147.5" y="318" width="80" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="nil-jX-Y0k"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oXe-Zq-g8a">
+                    <rect key="frame" x="166" y="273" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXA-W5-hqI">
+                    <rect key="frame" x="164" y="368" width="46" height="30"/>
+                    <state key="normal" title="Button"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zBZ-P1-bpK">
+                    <rect key="frame" x="166.5" y="406" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="EXA-W5-hqI" firstAttribute="top" secondItem="idm-Et-9DF" secondAttribute="bottom" constant="20" id="2Bp-jM-OWj"/>
+                <constraint firstItem="zBZ-P1-bpK" firstAttribute="top" secondItem="EXA-W5-hqI" secondAttribute="bottom" constant="8" id="8QH-tv-A6r"/>
+                <constraint firstItem="zBZ-P1-bpK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Op3-no-0I4"/>
+                <constraint firstItem="EXA-W5-hqI" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="PPT-q8-NQK"/>
+                <constraint firstItem="idm-Et-9DF" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="R3A-B3-OD5"/>
+                <constraint firstItem="oXe-Zq-g8a" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="RFz-50-u8E"/>
+                <constraint firstItem="idm-Et-9DF" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="jy0-Ig-f5w"/>
+                <constraint firstItem="idm-Et-9DF" firstAttribute="top" secondItem="oXe-Zq-g8a" secondAttribute="bottom" constant="24" id="w6P-bz-Dcy"/>
+            </constraints>
+            <point key="canvasLocation" x="16" y="60"/>
+        </view>
+    </objects>
+</document>
